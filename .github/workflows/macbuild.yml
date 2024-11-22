@@ -38,9 +38,9 @@ jobs:
         cxx:
           - "clang++"
         os:
-          - "macos-14"
+          - "macos-15"
         include:
-          - os: "macos-14"
+          - os: "macos-15"
             arch: "arm"
     steps:
       - uses: actions/checkout@v4
